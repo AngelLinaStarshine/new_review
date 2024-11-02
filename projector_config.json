@@ -6,7 +6,7 @@
         1000,
         50
       ],
-      "tensorPath": "https://raw.githubusercontent.com/AngelLinaStarshine/new_review/main/tensors.tsv",
+      "tensorPath": "https://raw.githubusercontent.com/AngelLinaStarshine/new_review/main/embeddings.tsv",
       "metadataPath": "https://raw.githubusercontent.com/AngelLinaStarshine/new_review/main/metadata.tsv"
     }
   ]
