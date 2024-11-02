@@ -59,8 +59,8 @@ def plot_data(history):
     plt.show()
 
 def retrieve_embeddings(model, vectorize_layer):
-    out_vectors = io.open('vecs.tsv', 'w', encoding='utf-8')
-    out_metadata = io.open('meta.tsv', 'w', encoding='utf-8')
+    out_vectors = io.open('embeddings.tsv', 'w', encoding='utf-8')
+    out_metadata = io.open('metadata.tsv', 'w', encoding='utf-8')
     weights = model.layers[0].get_weights()[0]  
     vocab = vectorize_layer.get_vocabulary()  
 
@@ -90,5 +90,5 @@ retrieve_embeddings(model, vectorize_layer)
 
 
 from google.colab import files
-files.download('vecs.tsv')
-files.download('meta.tsv')
+files.download('embeddings.tsv)
+files.download('metadata.tsv')
