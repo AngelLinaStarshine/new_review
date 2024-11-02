@@ -1,11 +1,13 @@
 {
   "embeddings": [
     {
-      "tensorName": "",  // Leave blank for now
-      "metadataPath": "https://raw.githubusercontent.com/AngelLinaStarshine/new_review/main/metadata.tsv",
-      "sprite": {
-        "imagePath": ""  // Optional, for cluster visualization
-      }
+      "tensorName": "My tensor",
+      "tensorShape": [
+        1000,
+        50
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/AngelLinaStarshine/new_review/main/tensors.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/AngelLinaStarshine/new_review/main/metadata.tsv"
     }
   ]
 }
